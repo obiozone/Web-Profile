@@ -1,0 +1,211 @@
+*
+{
+    margin:0
+    padding:0;
+}
+
+
+
+.row
+{
+    max-weight:140px;
+    margin:0 auto;
+}
+
+
+
+body
+{
+    font-family:tahoma;
+}
+
+.hero
+{
+    
+    position: absolute;
+    width:1140px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(image/thatsme.jpg);
+    height:200vh;
+    background-position: center;
+    background-size:cover;
+}
+
+h1
+{
+    color:white;
+}
+
+
+
+
+.main-nav
+{
+    list-style: none;
+    float:right;
+    margin-top:60px;
+}
+
+
+.main-nav li
+{
+    
+    
+    display: inline-block;
+    margin-left:20px;
+}
+
+.main-nav li a
+{
+    color:white;
+    text-decoration: none;
+    font-size:90%;
+    font-weight: bold;
+    
+}
+
+.main-nav li a:hover
+{
+    color:#e67e22;
+    border-bottom:2px solid #e67e22;
+    transition:all 0.5s ease-in;
+    padding: 15px 0;
+}
+
+
+
+.logo img
+{
+    height:100px;
+    float: left;
+    margin-top: 30px;
+}
+
+
+.service img
+{
+   height:350px;
+    float: none;
+    margin-top: 50px; 
+}
+
+
+
+
+.btn
+{
+    
+    
+    border:1px solid #e67e22;
+    padding: 10px 30px;
+    color: #e67e22;
+    text-decoration: none;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+
+.button-wow
+{
+    margine-top:40px;
+}
+
+
+
+.btn-half
+{
+ background-color: #e67e22;
+    color:white;
+     
+}
+
+
+
+.btn-full:hover
+{
+    background-color: #e67#22;
+    color:white;
+    transition:all 0.5s ease-in; 
+}
+
+
+.zero    
+{
+    position: absolute;
+    width:1000px;
+    top:60%;
+    left:30%;
+    transform: translate(-30%,-30%);
+    
+}
+    
+.cool    
+{
+    position: absolute;
+    width:1000px;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);   
+} 
+
+
+h4
+{
+  color:white 
+   
+}
+
+
+p
+{
+  color:white   
+}
+
+input[type=text], select, textarea
+
+{
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+}
+
+input[type=submit] 
+
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type=submit]:hover 
+
+}
+
+
+.container 
+
+{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+} 
+  
+      
+      
+      
